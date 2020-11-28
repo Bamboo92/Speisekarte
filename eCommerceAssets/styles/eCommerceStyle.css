@@ -1,0 +1,437 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(240,63,53,1.00);
+}
+body{
+	background-color: rgba(30,30,30,1.00);
+	/**background-image: url("/eCommerceAssets/images/Bamboo_Background.png");
+	background-repeat: repeat;
+	background-size: auto;**/
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+}
+/* Logo placeholder*/
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 60px;
+	text-align: center;
+	color: rgba(255,223,0,1.00);
+	background-color: rgba(21,21,21,1.00);
+}
+/* div for Links in header */
+#headerLinks {
+	float: right;
+	/*width: calc( 100% - 139px );*/
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(200,200,200,1.00);
+	padding-left: 66px;
+	font-size: 14px;
+}
+/* Offer text banner*/
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: rgba(50,50,50,1.00);
+	color: rgba(240,63,53,1.00);
+	line-height: 15px;
+	padding-left: 115px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 29px;
+}
+/* Sidebar */
+#content .sidebar {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	float: left; 
+	width: 15%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: rgba(50,50,50,1.00);
+	background-size: 100px;
+	padding-top: 36px;
+	height: 700px;
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	width: 70%;
+	text-align: center;
+	padding-left: 3%;
+	/**background-image: url(/chinese-dragon-template.jpg);
+	background-repeat: repeat-y;
+	background-size: contain;**/
+}
+/*menubar's properties for menus in sidebar */
+#content .sidebar #menubar {
+	text-align: left;
+	color: rgba(255,223,0,1.00);
+	position: relative;
+	left: 0%;
+}
+/* Search field in sidebar */
+#content .sidebar #search {
+	width: 100%;
+	border-radius: 0px;
+	height: 35px;
+	text-align: center;
+	color: rgba(50,50,50,1.00);
+	font-size: 14px;
+	background-color: rgba(200,200,200,1.00);
+	margin-bottom: 21px;
+}
+/* Whole page content */
+#mainWrapper {
+	width: 95%;
+	padding-left: 5%;
+}
+/*menu elements */
+.menu ul li {
+	list-style-type: none;
+	font-size: x-large;
+	position: relative;
+	left: -35px;
+	padding-top: 12px;
+	color: rgba(200,200,200,1.00);
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+	overflow: auto;
+	background-color: rgba(30,30,30,1.00);
+}
+.mainContent {
+	background-color: rgba(30,30,30,1.00);
+	overflow: auto;
+	position: relative;
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	/*padding-left: 5%;*/
+	padding-right: 4%;
+	width: 22%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(240,223,0,1.00);
+	font-size: 22px;
+	position: relative;
+	top: -20px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 17px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(240,63,53,1.00);
+	white-space: pre-wrap;
+}
+/* Content holder for product feature*/
+.productRow .productInfo .productContent2 {
+	position: relative;
+	top: -55px;
+	font-size: 15px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(66,240,53,1.00);
+	white-space: pre-wrap;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+	position: relative;
+	top: -70px;
+	width: 40%;
+	background-color: rgba(50,50,50,1.00);
+	height: 35px;
+	color: rgba(253,186,61,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(50,50,50,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: rgba(200,200,200,1.00);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgba(255,223,0,0.50);
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}
+/* Product's images in catalog */
+.productInfo div img {
+	width: 100%;
+}
+/*Links in sidebar */
+.sidebar #menubar .menu ul li a {
+	color: rgba(255,223,0,0.50);
+	text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover {
+	color: rgba(240,63,53,1.00);
+	text-decoration: none;
+}
+/* Menu headings in sidebar */
+#menubar .menu h2 {
+	font-size: 18px;
+}
+/*Links under menus in sidebar */
+#menubar .menu ul li a {
+	font-size: 16px;
+}
+/* Menus in sidebar */
+.sidebar #menubar .menu {
+	margin-bottom: 50px;
+}
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+/* search field in sidebar */
+#content .sidebar #search {
+	display: none;
+}
+/* sidebar */
+#content .sidebar {
+	float: none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	padding-left: 12%;
+	padding-top: 0px;
+}
+/* horizontal separators in sidebar */
+#content .sidebar hr {
+	display: none;
+}
+/*The sidebar and maincontent of page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/*menu headings in sidebar */
+#menubar .menu h2 {
+	display: inline;
+	font-size: medium;
+	padding-right: 6%;
+}
+/* Unordered List of links */
+#menubar .menu ul {
+	display: inline;
+}
+/*list elements */
+#menubar .menu ul li {
+	display: inline;
+	font-size: medium;
+	padding-left: 0%;
+	padding-right: 3%;
+}
+/*The link to be hidden in tablet view */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* menus in sidebar */
+.sidebar #menubar .menu {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 16px;
+}
+/*menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 95%;
+	padding-top: 0px;
+}
+/* offer banners content */
+#mainWrapper #offer p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 19px;
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 16px;
+}
+/* Buy buttons in catalog view */
+.productRow .productInfo .buyButton {
+	font-size: 15px;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+/* Links in header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Offer- Text banner */
+#mainWrapper #offer {
+	padding-left: 22%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*Offer - Text Banner */
+#mainWrapper #offer {
+	padding-left: 0px;
+	text-align: center;
+}
+/* Menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/*Menu headings in sidebar */
+#menubar .menu h2 {
+	width: 100%;
+	display: block;
+}
+/* Each product in catalog view */
+.mainContent .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Unordered list for menu elements */
+.menu ul {
+	position: relative;
+	padding-left: 24%;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content which excludes the sidebar */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+}
