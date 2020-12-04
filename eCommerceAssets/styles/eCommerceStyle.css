@@ -17,10 +17,16 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
+#logo{
+	position: absolute;
+	padding-bottom: 200px;
+	padding-left: 9px;
+	padding-top: 3px;
+}
 /* Logo placeholder*/
-#logo {
+#logo_name {
 	float: left;
-	padding-top: 10px;
+	padding-top: 300px;
 	padding-bottom: 10px;
 	width: 60px;
 	text-align: center;
