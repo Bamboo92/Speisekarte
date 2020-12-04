@@ -17,14 +17,14 @@ header {
 	font-style: normal;
 	font-weight: 400;
 }
-#logo{
+#bamboo_logo{
 	position: absolute;
 	padding-bottom: 200px;
 	padding-left: 9px;
 	padding-top: 3px;
 }
 /* Logo placeholder*/
-#logo_name {
+#logo{
 	float: left;
 	padding-top: 300px;
 	padding-bottom: 10px;
